@@ -3,7 +3,7 @@ document.write("    <div class=\"foot\">");
 document.write("        <div class=\"footbg\">");
 document.write("           <a href=\" https:\/\/www.moudio.top\">© 2021-2022 莫莫逗狗<\/a><br>");
 document.write("<p>友情链接：<a href=\" https:\/\/mo66.cn\">FengMo个人博客<\/a> <a href=\" https:\/\/xfox.fun\">未知狐的笔记<\/a><br>");
-document.write("<a href=\"https:\/\/icp.gov.moe\" target=\"_blank\">萌ICP备20221202号<\/a><br>");
+document.write("<a href=\"https:\/\/icp.gov.moe\/?keyword=20221202" target=\"_blank\">萌ICP备20221202号<\/a><br>");
  //document.write("<a href=\"https:\/\/www.museneko.top\/sitemap.xml\" >网站地图<\/a><br>");
  //document.write("           <a >未经本站授权禁止转载、摘编、复制或建立镜像。本站只提供WEB页面服务，本站不存储、不制作任何视频及图像，不承担任何由于内容的合法性及健康性所引起的争议和法律责任。<\/a>");
 document.write("<p>已运行：<span class=\"brand\" id=\"runtime\"><\/span><\/p>		");
