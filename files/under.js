@@ -5,7 +5,7 @@ document.write("           <a href=\" https:\/\/www.moudio.top\">© 2021-2022 �
 document.write("<p>友情链接：<a href=\" https:\/\/mo66.cn\">FengMo个人博客<\/a> <a href=\" https:\/\/xfox.fun\">未知狐的笔记<\/a><br>");
 document.write("<a href=\"https:\/\/icp.gov.moe\/?keyword=20221202\" target=\"_blank\">萌ICP备20221202号<\/a><br>");
 
-document.write("<p>已运行：<span class=\"brand\" id=\"runtime\"><\/span><\/p>		");
+document.write("<p>小破站已运行：<span class=\"brand\" id=\"runtime\"><\/span><\/p>		");
 document.write("<script type=\"text\/javascript\">");
 document.write("	function show_runtime(){");
 document.write("		window.setTimeout(\"show_runtime()\",1000);");
