@@ -1,5 +1,11 @@
-@import url("https://cdnjs.loli.net/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
-/*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");*/
+@import url(fontawesome-all.min.css);
+@import url("css.css");
+
+/*
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -165,7 +171,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -173,7 +179,7 @@ input, select, textarea {
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-/*		text-transform: uppercase;*/
+		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 	}
 
@@ -376,7 +382,7 @@ input, select, textarea {
 		letter-spacing: 0.2rem;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-/*		text-transform: uppercase;*/
+		text-transform: uppercase;
 	}
 
 	input[type="text"],
@@ -626,7 +632,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 6 Brands';
+			font-family: 'Font Awesome 5 Brands';
 		}
 
 /* Image */
@@ -640,7 +646,7 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("https://jitsu.oss-cn-beijing.aliyuncs.com/home/img/overlay.png");
+			background-image: url("../images/overlay.png");
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -1021,7 +1027,7 @@ input, select, textarea {
 		padding: 0 1.25rem 0 1.35rem;
 		text-align: center;
 		text-decoration: none;
-/*		text-transform: uppercase;*/
+		text-transform: uppercase;
 		white-space: nowrap;
 	}
 
@@ -1099,7 +1105,6 @@ input, select, textarea {
 	}
 
 /* BG */
-
 	#bg {
 		-moz-transform: scale(1.0);
 		-webkit-transform: scale(1.0);
@@ -1113,7 +1118,6 @@ input, select, textarea {
 		height: 100vh;
 		z-index: 1;
 	}
-
 		#bg:before, #bg:after {
 			content: '';
 			display: block;
@@ -1123,7 +1127,6 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 		}
-
 		#bg:before {
 			-moz-transition: background-color 2.5s ease-in-out;
 			-webkit-transition: background-color 2.5s ease-in-out;
@@ -1133,16 +1136,12 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("https://jitsu.oss-cn-beijing.aliyuncs.com/home/img/overlay.png");
-			background-size: auto,
- 256px 256px;
-			background-position: center,
- center;
-			background-repeat: no-repeat,
- repeat;
+			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5));
+			background-size: auto, 256px 256px;
+			background-position: center, center;
+			background-repeat: no-repeat, repeat;
 			z-index: 2;
 		}
-
 		#bg:after {
 			-moz-transform: scale(1.125);
 			-webkit-transform: scale(1.125);
@@ -1152,31 +1151,12 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("");
+			background-image: url("../images/bj.png");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
-
-	@media screen and (max-width: 960px) {
-		#bg:after {
-			-moz-transform: scale(1.125);
-			-webkit-transform: scale(1.125);
-			-ms-transform: scale(1.125);
-			transform: scale(1.125);
-			-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
-			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
-			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
-			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url();
-			background-position: center;
-			background-size: cover;
-			background-repeat: no-repeat;
-			z-index: 1;
-		}
-		}
-
 		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
@@ -1187,11 +1167,9 @@ input, select, textarea {
 			-ms-filter: blur(0.2rem);
 			filter: blur(0.2rem);
 		}
-
-		body.is-preload #bg:before {
+		body.is-loading #bg:before {
 			background-color: #000000;
 		}
-
 /* Wrapper */
 
 	#wrapper {
@@ -1269,7 +1247,7 @@ input, select, textarea {
 		background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
+		background-image: radial-gradient(rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 55%);
 		max-width: 100%;
 		text-align: center;
 	}
@@ -1306,7 +1284,6 @@ input, select, textarea {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
 
@@ -1341,7 +1318,6 @@ input, select, textarea {
 				}
 
 			#header .content p {
-		/*		text-transform: uppercase;*/
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				line-height: 2;
@@ -1374,7 +1350,7 @@ input, select, textarea {
 					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
-			/*		text-transform: uppercase;*/
+					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
@@ -1562,6 +1538,11 @@ input, select, textarea {
 			border-radius: 4px;
 			opacity: 0;
 		}
+		#main article ul li{
+			text-align:center;
+			list-style: none;
+			height: 100px;
+		}
 
 			#main article.active {
 				-moz-transform: translateY(0);
@@ -1598,7 +1579,7 @@ input, select, textarea {
 					height: 2.5rem;
 					border-radius: 100%;
 					background-position: center;
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 1%3B %7D%3C/style%3E%3Cline x1='2' y1='2' x2='18' y2='18' /%3E%3Cline x1='18' y1='2' x2='2' y2='18' /%3E%3C/svg%3E");
+					
 					background-size: 20px 20px;
 					background-repeat: no-repeat;
 				}
@@ -1653,7 +1634,7 @@ input, select, textarea {
 			font-size: 0.6rem;
 			opacity: 0.75;
 			margin-bottom: 0;
-	/*		text-transform: uppercase;*/
+			text-transform: uppercase;
 		}
 
 		body.is-article-visible #footer {

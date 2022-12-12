@@ -1,9 +1,6 @@
-document.write("<br>");
 document.write("    <div class=\"foot\">");
-document.write("        <div class=\"footbg\">");
-document.write("           <a href=\" https:\/\/www.moudio.top\">© 2021-2022 莫莫逗狗<\/a><br>");
-document.write("<p>友情链接：<a href=\" https:\/\/mo66.cn\">FengMo个人博客<\/a> <a href=\" https:\/\/xfox.fun\">未知狐的笔记<\/a> <a href=\" https:\/\/www.xy7z.cn\">小鱼砌站<\/a>  <a href=\" https:\/\/dxia.com\">当下 - 即是最好<\/a> <br>");
-document.write("<a href=\"https:\/\/icp.gov.moe\/?keyword=20221202\" target=\"_blank\">萌ICP备20221202号<\/a><br>");
+document.write("        <div class=\"copyright\">");
+
 
 document.write("<p>小破站已运行：<span class=\"brand\" id=\"runtime\"><\/span><\/p>		");
 document.write("<script type=\"text\/javascript\">");
