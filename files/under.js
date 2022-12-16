@@ -1,7 +1,5 @@
 document.write("    <div class=\"foot\">");
 document.write("        <div class=\"copyright\">");
-
-
 document.write("<p>小破站已运行：<span class=\"brand\" id=\"runtime\"><\/span><\/p>		");
 document.write("<script type=\"text\/javascript\">");
 document.write("	function show_runtime(){");
