@@ -48,7 +48,7 @@ let linksData = [
     link: "https://blog.mocn.top/",
   },
   {
-    icon: Edit,
+    icon: Cloud,
     name: "荣耀5X之家",
     link: "https://honor5x.mocn.top",
   },
@@ -58,7 +58,7 @@ let linksData = [
     link: "https://music.mocn.top/",
   },
   {
-    icon: Share,
+    icon: Compass,
     name: "分享",
     link: "https://blog.mocn.top/share",
   },
