@@ -45,32 +45,32 @@ let linksData = [
   {
     icon: Blog,
     name: "博客",
-    link: "https://blog.imsyy.top/",
+    link: "https://blog.mocn.top/",
   },
   {
-    icon: Cloud,
-    name: "网盘",
-    link: "https://pan.imsyy.top/",
+    icon: Edit,
+    name: "荣耀5X之家",
+    link: "https://honor5x.mocn.top",
   },
   {
     icon: CompactDisc,
     name: "音乐",
-    link: "https://music.imsyy.top/",
+    link: "https://music.mocn.top/",
   },
   {
-    icon: Compass,
-    name: "起始页",
-    link: "https://nav.imsyy.top/",
+    icon: Share,
+    name: "分享",
+    link: "https://blog.mocn.top/share",
   },
   {
     icon: Book,
-    name: "网址集",
-    link: "https://web.imsyy.top/",
+    name: "Pixiv",
+    link: "https://www.pixiv.net/",
   },
   {
     icon: Flask,
-    name: "实验室",
-    link: "https://lab.imsyy.top/",
+    name: "MO 站点监测",
+    link: "https://status.mocn.top/",
   },
 ];
 
