@@ -32,7 +32,7 @@ const changeBg = (type) => {
   } else if (type == 2) {
     bgUrl.value = "https://api.ixiaowai.cn/gqapi/gqapi.php";
   } else if (type == 3) {
-    bgUrl.value = "https://api.ixiaowai.cn/api/api.php";
+    bgUrl.value = "https://www.dmoe.cc/random.php";
   }
 };
 
