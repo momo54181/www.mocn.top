@@ -53,8 +53,8 @@ import {
   CompactDisc,
   Cloud,
   Compass,
-  AnimalCat,
-  ChannelShare,
+  Book,
+  Fire,
   LaptopCode,
 } from "@vicons/fa";
 import { mainStore } from "@/store";
@@ -82,8 +82,8 @@ const siteIcon = {
   Cloud,
   CompactDisc,
   Compass,
-  AnimalCat,
-  ChannelShare,
+  Book,
+  Fire,
   LaptopCode,
 };
 
