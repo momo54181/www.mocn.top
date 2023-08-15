@@ -18,10 +18,11 @@
 import { onMounted, ref, watch, h } from "vue";
 import { SuccessPicture } from "@icon-park/vue-next";
 import { mainStore } from "@/store";
+
 const store = mainStore();
+const bgUrl = ref(null); // 壁纸链接
 
-let bgUrl = ref(null); // 壁纸链接
-
+// 更换壁纸链接
 const changeBg = (type) => {
   if (type == 0) {
     bgUrl.value = `/images/background${Math.floor(

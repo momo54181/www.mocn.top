@@ -1,0 +1,37 @@
+[
+  {
+    "icon": "Blog",
+    "name": "博客",
+    "link": "https://blog.mocn.top/"
+  },
+  {
+    "icon": "Cloud",
+    "name": "网盘",
+    "link": "https://alist.mocn.top/"
+  },
+  {
+    "icon": "CompactDisc",
+    "name": "音乐",
+    "link": "https://music.mocn.top/"
+  },
+  {
+    "icon": "Compass",
+    "name": "起始页",
+    "link": "https://www.mocn.top/"
+  },
+  {
+    "icon": "AnimalCat20Filled",
+    "name": "Bili",
+    "link": "https://bili.mocn.top"
+  },
+  {
+    "icon": "ChannelShare12Filled",
+    "name": "分享",
+    "link": "https://blog.mocn.top/share"
+  },
+  {
+    "icon": "LaptopCode",
+    "name": "站点监测",
+    "link": "https://status.mocn.top/"
+  }
+]

@@ -1,21 +1,27 @@
 <template>
   <footer>
     <div class="power" v-show="!store.playerState">
-      <span
-        >Copyright&nbsp;&copy;&nbsp;{{ fullYear }}
-        <a href="https://www.mocn.top">莫莫</a>
+      <span>
+        Copyright&nbsp;&copy;
+        <span v-if="siteStartDate?.length >= 4" class="site-start">
+          {{ siteStartDate.substring(0, 4) }}
+          -
+        </span>
+        {{ fullYear }}
+        <a :href="SiteUrl">{{ SiteAnthor }}</a>
       </span>
       <!-- 以下信息请不要修改哦 -->
-      <span class="hidden"
-        >&nbsp;&amp;&nbsp;Made&nbsp;by&nbsp;<a
-          :href="config.github"
-          target="_blank"
-        >
+      <span class="hidden">
+        &amp;&nbsp;Made&nbsp;by
+        <a :href="config.github" target="_blank">
           {{ config.author }}
-        </a></span
-      >&nbsp;&amp;
+        </a>
+      </span>
       <!-- 站点备案 -->
-      <a href="https://beian.miit.gov.cn/" target="_blank">晋ICP备2023017547号-1  </a>
+      <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
+        &amp;
+        {{ siteIcp }}
+      </a>
       <a href="https://icp.gov.moe/?keyword=20230012" target="_blank">萌ICP备20230012号</a>
     </div>
     <div class="lrc" v-show="store.playerState">
@@ -29,12 +35,19 @@
 </template>
 
 <script setup>
+import { ref } from "vue";
 import { MusicOne } from "@icon-park/vue-next";
 import { mainStore } from "@/store";
 import config from "@/../package.json";
-const store = mainStore();
 
-let fullYear = new Date().getFullYear();
+const store = mainStore();
+const fullYear = new Date().getFullYear();
+
+// 加载配置数据
+const siteStartDate = ref(import.meta.env.VITE_SITE_START);
+const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
+const SiteAnthor = ref(import.meta.env.VITE_SITE_ANTHOR);
+const SiteUrl = ref(import.meta.env.VITE_SITE_URL);
 </script>
 
 <style lang="scss" scoped>
