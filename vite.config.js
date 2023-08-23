@@ -13,6 +13,7 @@ export default ({ mode }) =>
     plugins: [
       vue(),
       AutoImport({
+        imports: ["vue"],
         resolvers: [ElementPlusResolver()],
       }),
       Components({
@@ -91,7 +92,7 @@ export default ({ mode }) =>
     ],
     server: {
       port: "3000",
-      hmr: true,
+      open: true,
     },
     resolve: {
       alias: [
