@@ -1,1 +1,0 @@
-function lwlhitokoto(){document.write("一旦接受了自己的软弱<br>那我就是无敌的");}
